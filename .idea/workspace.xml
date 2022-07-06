@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d803063-b5d9-45a8-aada-06108f657ad3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/MOT15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/MOT16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/MOT17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/MOT20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/all_yolov5s.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/crowdhuman_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_ft_ch_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_hrnet18.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_res34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_res34fpn.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_res50.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mix_mot17_half_yolov5s.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mot15_ft_mix_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mot17_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mot17_half_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mot17_half_yolov5s.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/mot20_ft_mix_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_init_paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/caltech.10k.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/caltech.all" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/caltech.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/caltech.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/citypersons.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/citypersons.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/crowdhuman.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/crowdhuman.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/cuhksysu.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/cuhksysu.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/eth.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot15.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot16.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot17.emb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot17.half" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot17.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot17.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mot20.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prw.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prw.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detection_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_data_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_labels_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_labels_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_labels_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_labels_crowd_det.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gen_labels_crowd_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/crowdhuman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/data_all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/data_half.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/mot15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/mot16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/mot17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/mot17_half.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cfg/mot20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/datasets/dataset/jde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/datasets/dataset/jde_yolov5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/datasets/dataset_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/data_parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/decode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/config/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/config/hrnet_w18.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/config/hrnet_w32.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/config/yolov5s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/dlav0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/pose_dla_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/pose_dla_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/pose_hrnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/resnet_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/networks/resnet_fpn_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/scatter_gather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/opts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracker/basetrack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracker/matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracker/multitracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/kalman_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/nms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/parse_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tracking_utils/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/trains/base_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/trains/mot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/trains/train_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/post_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_det.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_emb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/track_half.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BYpwdaoINazrNbHFqZqSelVeps" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/minhhuy/Desktop/FairMOT"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d803063-b5d9-45a8-aada-06108f657ad3" name="Changes" comment="" />
+      <created>1657093113036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657093113036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
